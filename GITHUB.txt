@@ -1,0 +1,77 @@
+GIT(WHERE THE REPOSITORY ARE MADE)  !=  GITHUB(ONE OF THE SERVER)
+
+GIT 
+==============
+WIKI ::: https://en.wikipedia.org/wiki/Git
+
+
+IT HELPS US MANAGE OUR FILES
+
+HISTORY
+---------------
+1.GIT KEEP TRACK OF EVERY TASK WE DO(NOTHING LOST)
+
+COLLABORATION
+-----------------------
+1.GIT MERGES THE FILES IN ALL FILES 
+
+GIT VOCABULARY
+------------------------
+
+PROJECT = REPOSITORY( REPO )
+WORKING DIRECTORY
+STAGING =CONTROL WHAT GETS COMMITTED(PREPARING , GETTING READY)
+COMMIT = GIT WAY OF 'SAVING'
+
+
+PUSH -- TO SAVE LOCAL DATA INTO SERVER
+PULL -- TO RETRIEVE DATA FROM SERVER TO LOCAL COMPUTER
+
+## INSTALLING GIT ON WINDOWS
+---------------------------------
+1. GIT-SCM.COM
+2.DOWNLOAD
+
+## COMMANDS
+========================
+git comfig --global user.name "venkat"
+git config --global user.email "venkateshpadakanti007@gmail.com"
+pwd(print the working directory)
+cd /s/git
+mkdir "hello"
+
+git init (to initialize the server)
+git status
+
+git add index.html -m "(message)"
+git status (we see unstaged files)
+git commit
+git checkout -- (to restore the deleted files)
+
+git remote -v
+git remote set-url origin https://github.com/venkateshpadakanti007/travel-site.git
+
+git push origin master (origin --address , master --branch)
+git pull
+
+ls (to know the list of files)
+clear (to clear cmd)
+
+BRANCHES IN GIT
+---------------------
+git branch 
+git branch littlefeature
+git checkout littlefeature
+git merge master
+	git checkout -b littlefeature
+
+
+
+
+
+
+
+
+
+
+
